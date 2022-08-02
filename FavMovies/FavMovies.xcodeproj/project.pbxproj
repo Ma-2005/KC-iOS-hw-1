@@ -11,6 +11,9 @@
 		047C8F4B2898926B0018A54A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C8F4A2898926B0018A54A /* ContentView.swift */; };
 		047C8F4D2898926C0018A54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C8F4C2898926C0018A54A /* Assets.xcassets */; };
 		047C8F502898926C0018A54A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C8F4F2898926C0018A54A /* Preview Assets.xcassets */; };
+		047C8F5828994EBB0018A54A /* MouseMemoirs-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047C8F5728994EBB0018A54A /* MouseMemoirs-Regular.ttf */; };
+		047C8F5D289950D00018A54A /* The Amazing Spider-Man.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047C8F5C289950D00018A54A /* The Amazing Spider-Man.ttf */; };
+		047C8F5F289951140018A54A /* Carnevalee Freakshow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 047C8F5E289951140018A54A /* Carnevalee Freakshow.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		047C8F4A2898926B0018A54A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		047C8F4C2898926C0018A54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047C8F4F2898926C0018A54A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		047C8F5728994EBB0018A54A /* MouseMemoirs-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MouseMemoirs-Regular.ttf"; sourceTree = "<group>"; };
+		047C8F5928994F320018A54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		047C8F5C289950D00018A54A /* The Amazing Spider-Man.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "The Amazing Spider-Man.ttf"; path = "../../../../../../../mmm/Fonts/C-M/The Amazing Spider-Man.ttf"; sourceTree = "<group>"; };
+		047C8F5E289951140018A54A /* Carnevalee Freakshow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Carnevalee Freakshow.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,10 @@
 		047C8F472898926B0018A54A /* FavMovies */ = {
 			isa = PBXGroup;
 			children = (
+				047C8F5928994F320018A54A /* Info.plist */,
 				047C8F482898926B0018A54A /* FavMoviesApp.swift */,
 				047C8F4A2898926B0018A54A /* ContentView.swift */,
+				047C8F5628994E970018A54A /* Fonts */,
 				047C8F4C2898926C0018A54A /* Assets.xcassets */,
 				047C8F4E2898926C0018A54A /* Preview Content */,
 			);
@@ -65,6 +74,16 @@
 				047C8F4F2898926C0018A54A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		047C8F5628994E970018A54A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				047C8F5E289951140018A54A /* Carnevalee Freakshow.ttf */,
+				047C8F5C289950D00018A54A /* The Amazing Spider-Man.ttf */,
+				047C8F5728994EBB0018A54A /* MouseMemoirs-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +146,9 @@
 			files = (
 				047C8F502898926C0018A54A /* Preview Assets.xcassets in Resources */,
 				047C8F4D2898926C0018A54A /* Assets.xcassets in Resources */,
+				047C8F5F289951140018A54A /* Carnevalee Freakshow.ttf in Resources */,
+				047C8F5828994EBB0018A54A /* MouseMemoirs-Regular.ttf in Resources */,
+				047C8F5D289950D00018A54A /* The Amazing Spider-Man.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +291,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FavMovies/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +320,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FavMovies/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FavMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

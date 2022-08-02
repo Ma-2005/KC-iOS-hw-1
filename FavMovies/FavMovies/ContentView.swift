@@ -34,7 +34,7 @@ struct ContentView: View {
                     
                 }
                 .background(.white.opacity(0.7))
-                .font(.system(size: 28, weight: .semibold, design: .serif))
+                .font(.custom("MouseMemoirs-Regular", size: 50))
                   .foregroundColor(.black)
                   .padding(0.2)
     
@@ -50,7 +50,7 @@ struct ContentView: View {
                      Spacer()
                     
                     Text("One Piece")
-                        .font(.system(size: 23, weight: .semibold, design: .serif))
+                        .font(.system(size: 30, weight: .bold, design: .serif))
                         .foregroundColor(Color.black)
                         .shadow(radius: 2)
                           Spacer()
@@ -161,7 +161,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Text("The Maze Runner")
-                        .font(.system(size: 23, weight: .semibold, design: .serif))
+                        .font(.custom("MouseMemoirs-Regular", size: 35))
                         .foregroundColor(Color.black)
                         .shadow(radius: 2)
                     Spacer()
@@ -197,7 +197,7 @@ struct ContentView: View {
                           Spacer()
                     
                     Text("FORGOTTEN")
-                        .font(.system(size: 23, weight: .semibold, design: .serif))
+                        .font(.custom("MouseMemoirs-Regular", size: 35))
                         .foregroundColor(Color.black)
                         .shadow(radius: 2)
                           Spacer()

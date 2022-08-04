@@ -217,10 +217,6 @@ struct ContentView: View {
                     
                 }.background(.white.opacity(0.4))
                     .padding(0.2)
-                
-                
-                
-                
             
                 }
                 

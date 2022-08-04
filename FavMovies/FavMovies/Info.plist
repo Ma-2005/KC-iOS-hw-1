@@ -5,8 +5,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>MouseMemoirs-Regular.ttf</string>
-		<string>The Amazing Spider-Man.ttf</string>
 		<string>Carnevalee Freakshow.ttf</string>
+		<string>The Amazing Spider-Man.ttf</string>
 	</array>
 </dict>
 </plist>
